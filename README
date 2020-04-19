@@ -1,0 +1,5 @@
+# Build container in cloned repo
+`docker build -t aabyzov/react-cli-e2e-extended:1.0.0 .`
+
+# Run container
+`docker run --rm aabyzov/react-cli-e2e-extended:1.0.0 react-scripts`
