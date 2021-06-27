@@ -1,5 +1,8 @@
 # Build container in cloned repo
-`docker build -t aabyzov/react-cli-e2e-extended:1.0.0 .`
+`docker build -t aabyzov/react-cli-e2e-extended:1.0.0 .` - specify your version instead of 1.0.0, e.g. 2.0.9
+for a particular project, it makes sense to specify it explicitly, e.g.
+`docker build -t docker-registry.sportchamp.ru/react-cli-e2e-extended:2.0.9 .`
+
 
 # Run container
 `docker run --rm aabyzov/react-cli-e2e-extended:1.0.0 react-scripts`
